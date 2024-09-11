@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        /* 左侧边框 */
+        .sidebar {
+            width: 250px;
+            background-color: #2b2b2b;
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .menu-item {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .menu-item h2 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        /* 中间内容区域 */
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .nickname {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        /* 个人信息展示 */
+        .info-section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .info-item {
+            margin-bottom: 15px;
+        }
+        .info-item p {
+            margin: 0;
+        }
+        .info-item .title {
+            font-weight: bold;
+        }
+        /* 留言模块 */
+        .comment-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .comment-box {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .submit-btn {
+            background-color: #2b2b2b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .submit-btn:hover {
+            background-color: #4a4a4a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 左侧边框 -->
+        <div class="sidebar">
+            <div class="menu-item">
+                <h2></h2>
+                <!-- 大头像 -->
+                <img src="https://i0.hdslb.com/bfs/face/a223426ac271d5c47560f9e9fcb6604dfa44ad29.jpg" alt="头像" class="avatar">
+                <div class="nickname">空白zzzzz</div>
+            </div>
+
+            <div class="menu-item">
+                <h2>个人信息</h2>
+            </div>
+        </div>
+
+        <!-- 中间内容 -->
+        <div class="content">
+            <!-- 个人信息部分 -->
+            <div class="info-section">
+                <div class="info-item">
+                    <p class="title">姓名：</p>
+                    <p>李国洲</p>
+                </div>
+                <div class="info-item">
+                    <p class="title">性别 年龄：</p>
+                    <p>男，17</p>
+                </div>
+                <div class="info-item">
+                    <p class="title">个人履历：</p>
+                    <p>暂无......</p>
+                </div>
+            </div>
+
+            <!-- 留言模块 -->
+            <div class="comment-section">
+                <h3>留言</h3>
+                <textarea class="comment-box" placeholder="在这里留下你的留言"></textarea>
+                <button class="submit-btn">提交</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
