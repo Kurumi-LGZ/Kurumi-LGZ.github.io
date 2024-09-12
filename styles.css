@@ -1,0 +1,10 @@
+.wechat-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.wechat {
+  flex: 1;
+  padding: 10px;
+}
