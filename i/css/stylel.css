@@ -2,7 +2,7 @@
 body {
   font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #79a8ae;
-  color: #FCC0CC;
+  color: #666;
   font-size: 16px;
   line-height: 1.5em;
 }
@@ -45,11 +45,11 @@ body,
   background: -webkit-linear-gradient(top, rgb(165, 103, 189) 0%, rgb(75, 233, 214) 120%);
   */
 
-  background: -webkit-linear-gradient(top, #FCC0CC 0%, #FCC0CC 120%);
-  background: -moz-linear-gradient(top, #FCC0CC 0%, #FCC0CC 120%);
-  background: -o-linear-gradient(top, #FCC0CC 0%, #FCC0CC 120%);
-  background: -ms-linear-gradient(top, #FCC0CC 0%, #FCC0CC 120%);
-  background: linear-gradient(top, #FCC0CC 0%, #FCC0CC 120%);
+  background: -webkit-linear-gradient(top, rgb(238, 156, 167) 0%, rgb(238, 156, 167) 120%);
+  background: -moz-linear-gradient(top, rgb(238, 156, 167) 0%, rgb(238, 156, 167) 120%);
+  background: -o-linear-gradient(top, rgb(238, 156, 167) 0%, rgb(238, 156, 167) 120%);
+  background: -ms-linear-gradient(top, rgb(238, 156, 167) 0%, rgb(238, 156, 167) 120%);
+  background: linear-gradient(top, rgb(238, 156, 167) 0%, rgb(238, 156, 167) 120%);
 }
 
 .body--ready .overlay {
